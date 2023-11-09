@@ -598,6 +598,11 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(100 116 139 / var(--tw-bg-opacity));
   }
+
+  .xs\:bg-red-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+  }
 }
 
 @media (min-width: 1440px) {
