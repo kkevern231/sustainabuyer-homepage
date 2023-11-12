@@ -7,9 +7,11 @@
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="flex flex-col min-h-screen">
+    <div class="flex flex-col min-h-screen bg-gray-50">
       <header>
-        <div class="bg-white flex flex-row h-14 justify-between">
+        <div
+          class="bg-white flex flex-row h-14 w-full justify-between fixed border-b p-2"
+        >
           <div class="flex flex-row items-center">
             <svg
               data-v-1c1051d0=""
@@ -66,11 +68,106 @@
         </div>
       </header>
 
-      <div class="xs:bg-slate-500 h-40 w-full lg:bg-orange-300">
-        This will be the scrolling articles
+      <div
+        class="xs:bg-slate-500 rounded-2xl p-4 mt-14 h-40 w-11/12 self-center lg:bg-orange-300"
+      >
+        This will be the image carousel
+      </div>
+      <div class="w-11/12 self-center">
+        <p>This will be carousel buttons/dots container</p>
       </div>
 
-      <div class="xs:bg-green-300 h-40 w-full lg:bg-purple-700">hello</div>
+      <div
+        id="main-article"
+        class="flex flex-col w-11/12 h-56 p-2 self-center bg-white rounded-2xl border shadow-sm overflow-hidden"
+      >
+        <img
+          src="./src/jamie-lol.jpg"
+          class="rounded-2xl object-cover w-full h-1/2"
+        />
+        <h2 class="font-bold text-left justify-center p-0">
+          Through the looking glass: Is jamie watching you from inside your
+          machine?
+        </h2>
+        <p class="text-left p-0">
+          We take a deep dive into the liklihood of being tracked by potential
+          pedophiles.
+        </p>
+      </div>
+      <div
+        id="sub-article"
+        class="flex flex-row w-11/12 h-28 mt-4 self-center bg-white rounded-2xl border shadow-sm overflow-hidden p-2"
+      >
+        <img
+          src="./src/jamie-lol.jpg"
+          class="object-cover rounded w-1/4 h-full"
+        />
+        <div class="flex flex-col justify-between">
+          <h3 class="font-semibold pl-2">
+            Coffee Cups: What are people actually drinking?
+          </h3>
+          <p class="pl-2">Date, time, how long to read</p>
+        </div>
+      </div>
+      <div
+        id="sub-article"
+        class="flex flex-row w-11/12 h-28 mt-4 self-center bg-white rounded-2xl border shadow-sm overflow-hidden p-2"
+      >
+        <img
+          src="./src/jamie-lol.jpg"
+          class="object-cover rounded w-1/4 h-full"
+        />
+        <div class="flex flex-col justify-between">
+          <h3 class="font-semibold pl-2">
+            Headphones: Why aren't they called ear sounders?
+          </h3>
+          <p class="pl-2">Date, time, how long to read</p>
+        </div>
+      </div>
+      <div
+        id="sub-article"
+        class="flex flex-row w-11/12 h-28 mt-4 self-center bg-white rounded-2xl border shadow-sm overflow-hidden p-2"
+      >
+        <img
+          src="./src/jamie-lol.jpg"
+          class="object-cover rounded w-1/4 h-full"
+        />
+        <div class="flex flex-col justify-between">
+          <h3 class="font-semibold pl-2">Hot singles in your area</h3>
+          <p class="pl-2">Date, time, how long to plow</p>
+        </div>
+      </div>
+
+      <div
+        id="sub-article"
+        class="flex flex-row w-11/12 h-28 mt-4 self-center bg-white rounded-2xl border shadow-sm overflow-hidden p-2"
+      >
+        <img
+          src="./src/jamie-lol.jpg"
+          class="object-cover rounded w-1/4 h-full"
+        />
+        <div class="flex flex-col justify-between">
+          <h3 class="font-semibold pl-2">
+            Butt plugs: Can you tell who is wearing them?
+          </h3>
+          <p class="pl-2">Date, time, how long to read</p>
+        </div>
+      </div>
+
+      <button class="text-gray-500 pt-2 pb-8">View More</button>
+      <div
+        class="flex flex-col w-11/12 p-4 border shadow-sm self-center rounded-2xl bg-white"
+      >
+        <div class="flex flex-row flex-wrap">
+          <h2 class="font-bold text-3xl">
+            Keep up to date with the latest in the world of
+          </h2>
+          <h2 class="text-green-400 font-bold text-3xl">sustainability</h2>
+        </div>
+        <h3>Keep up to date with updates and other things.</h3>
+      </div>
+
+      <div class="xs:bg-green-300 h-screen w-full lg:bg-purple-700">hello</div>
     </div>
   </body>
 </html>
